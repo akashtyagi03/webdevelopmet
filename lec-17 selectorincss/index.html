@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selector</title>
+    <style>
+        div{ 
+        }
+        /* class selector  */
+        .rgb{
+            background-color: rgb(202, 139, 139);
+        }
+        /* id selector */
+        #green{
+            background-color: rgb(119, 166, 119);
+        }
+        /* child selector */
+        div > p {
+            color: rgb(10, 10, 233);
+            background-color: rgb(170, 118, 118);            
+        }
+        /* descendant selector */
+        div p {
+            color: rgb(10, 10, 233);
+            background-color: rgb(170, 118, 118);            
+        }
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: red
+        }
+
+        a :link{
+            color: green;
+        }
+
+        a:active{
+            background-color: yellow
+        }
+
+        a :hover{
+            background-color: tomatoe;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="rgb">
+        hey i am ready to write code in css.
+     
+    </div>
+    <div id="green">
+        hey i am 2, and i'm also ready to write a code.
+        <article> 
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis vero quasi rerum harum!</p>
+            <p>Lorem, ipsum dolor.</p>
+        </article>
+    </div>
+    <a href="https://www.google.com">go to google</a>
+    <a href="https://www.facebook2.com">go to facebook</a>
+</body>
+</html>
