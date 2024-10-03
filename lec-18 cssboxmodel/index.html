@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            background-color: turquoise;
+        }
+        .box1{
+            color: yellow;
+            padding: 10px;
+            margin: 25px;  
+            border: 2px solid blue;
+            height: 200px;
+            /* agr mane height ke sathe box-sizing nhi likha toh ye jo 200 height hain vo bss mare content ki hain, but agr mane box-sizing likh diya toh main bta rha hun ki jo 200height hain vo mare padding or border ki milake hain but margin isme add nhi hain  */
+            box-sizing: border-box;
+        }
+        .box2{
+            color: red;padding: 10px;
+            margin: 25px;  
+            border: 2px solid black;
+            height: 200px;
+        }
+    </style>
+</head>  
+
+<body>
+    <div class="box box1">i am box</div>
+    <div class="box box2">i am another box</div>
+</body>
+
+</html>
