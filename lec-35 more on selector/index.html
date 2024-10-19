@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on css selector</title>
+    <style>
+        /* .box:first-child{
+            background-color: violet;
+        } */
+        /* .box::first-line{
+            color: violet ;
+        } */
+
+        /* .boxes *{
+            color: teal;
+            border: 1px solid black;
+        } */
+        
+        /* attribute selector */
+        /* [deta-color="secoundary"]{
+            margin-top: 45px;
+        } */ 
+
+        /* .box:nth-child(even){
+            color: aqua;
+        } */
+
+        .box:nth-child(odd){
+            color: blue;
+        }
+
+        .boxes::before{
+            content:  "this is not stupid";
+        }
+        .boxes::after{
+            content:  "this is not stupid";
+            color:orange; 
+            background-color: brown
+        }
+        
+        ::selection{
+            background-color: black;
+            color: aqua;
+        }
+
+        .box::first-letter{
+            color: purple;
+            font-size: 45px;
+        }
+
+        input::placeholder{
+            color: rgb(28, 32, 30);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div deta-color="secoundary" class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dolores? Id minima sunt fugit quis eveniet repellat beatae consequuntur velit.</div>
+        <div class="box">hey i not your servent. this is my passion</div>
+        <div class="box">hey i not your servent. this is my passion</div>
+        <input type="text" placeholder="type your bloodline">
+    </div>
+</body>
+</html>
