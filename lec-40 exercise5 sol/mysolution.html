@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navbar</title>
+    <style>
+        body {
+            background-color: violet;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        header{
+            position: sticky;
+            top: 0;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            font-weight: bolder;
+
+        }
+
+        ul li a {
+            color: var(--text-color);
+            text-decoration: none;
+            padding: 15px;
+        }
+
+
+        nav {
+            
+            background-color: #333;
+            color: white;
+            top: 0;
+            width: 100%;
+            padding: 20px 0;
+            
+        }
+
+        .main-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            gap: 20px;
+            height: 500px;
+            margin-top: 5px;
+            /* Increased margin-top to account for the navbar height */
+        }
+
+        .left-box,
+        .right-box {
+            width: 45%;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border: 1px solid #da1414;
+        }
+
+        .detail-box {
+            margin: 20px;
+            padding: 20px;
+            background-color: #e9ecef;
+            border: 1px solid #000000;
+            border-radius: 20px;
+        }
+
+        /* Sticky Circle Logo */
+        .sticky-logo {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: #ff5722;
+            border-radius: 50%;
+        }
+        footer {
+            background-color: #c9b1b1;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative; /* Adjust this if you want it fixed at the bottom */
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                    <a href="about">about</a>
+                    <a href="feedback">feedback</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-container">
+        <div class="left-box">
+            left-box
+        </div>
+        <div class="right-box">
+            right-box
+        </div>
+    </div>
+    <div class="detail-box">
+        <h2>Details</h2>
+        <p>Welcome to the jurney of web development. and this make you a perfect developer</p>
+    </div>
+
+    <div class="sticky-logo"></div>
+
+    <footer>
+        <p>&copy; 2024 Your Website Name. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

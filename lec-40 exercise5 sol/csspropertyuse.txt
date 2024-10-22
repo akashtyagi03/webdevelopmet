@@ -1,0 +1,61 @@
+CSS Properties List:
+
+1. background-color:
+ Meaning: Element ka background color set karta hai.
+
+2. color:
+ Meaning: Element ke text ka color set karta hai.
+
+3. position:
+ Meaning: Element ki positioning ka method define karta hai. (e.g., static, relative, absolute, fixed, sticky).
+
+4. top, bottom, left, right:
+ Meaning: Positioned elements ki placement ko set karta hai. Yeh properties position ki type ke hisaab se kaam karte hain.
+
+5. width:
+ Meaning: Element ki width set karta hai.
+
+6. padding:
+Meaning: Element ke content aur border ke beech ki space set karta hai. Padding ko individual sides ke liye bhi define kiya ja sakta hai (top, right, bottom, left).
+ 
+7. margin:
+ Meaning: Element ke bahar ki space set karta hai, yani element aur dusre elements ke beech ki space.
+
+8. display:
+ Meaning: Element ka display behavior define karta hai (e.g., block, inline, flex, grid, etc.).
+
+9. flex:
+  Meaning: Flexbox layout ko enable karta hai. Iska use element ko horizontally ya vertically align karne ke liye hota hai.
+
+10. justify-content:
+ Meaning: Flex container ke andar elements ki horizontal alignment ko control karta hai (e.g., flex-start, flex-end, center, space-between, etc.).
+
+11. gap:
+ Meaning: Flexbox ya grid layout ke elements ke beech ki space set karta hai.
+
+12. height:
+ Meaning: Element ki height set karta hai.
+
+13. border:
+ Meaning: Element ke charon taraf ek border define karta hai. Isme border width, style, aur color shamil hote hain.
+
+14. border-radius:
+ Meaning: Element ke corners ko rounded banata hai.
+
+15. text-align:
+ Meaning: Text ko horizontal alignment set karta hai (e.g., left, right, center, justify).
+
+16. list-style:
+ Meaning: List items ka appearance control karta hai (e.g., bullet points ke liye).
+
+17. z-index:
+ Meaning: Stacking order set karta hai. Higher value wale elements lower value wale elements ke upar dikhenge.
+
+18. width:
+ Meaning: Element ki width set karta hai.
+
+19. height:
+ Meaning: Element ki height set karta hai.
+
+20. margin-top:
+ Meaning: Element ke upar ki space set karta hai.
